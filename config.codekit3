@@ -1435,6 +1435,60 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/sounds\/boom.wav": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/sounds\/boom.wav",
+		"oF": 0
+		},
+	"\/sounds\/clap.wav": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/sounds\/clap.wav",
+		"oF": 0
+		},
+	"\/sounds\/hihat.wav": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/sounds\/hihat.wav",
+		"oF": 0
+		},
+	"\/sounds\/kick.wav": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/sounds\/kick.wav",
+		"oF": 0
+		},
+	"\/sounds\/openhat.wav": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/sounds\/openhat.wav",
+		"oF": 0
+		},
+	"\/sounds\/ride.wav": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/sounds\/ride.wav",
+		"oF": 0
+		},
+	"\/sounds\/snare.wav": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/sounds\/snare.wav",
+		"oF": 0
+		},
+	"\/sounds\/tink.wav": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/sounds\/tink.wav",
+		"oF": 0
+		},
+	"\/sounds\/tom.wav": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/sounds\/tom.wav",
+		"oF": 0
+		},
 	"\/themes\/default\/assets\/fonts\/icons.eot": {
 		"ft": 8192,
 		"oA": 2,
@@ -1493,7 +1547,7 @@
 	},
 "projectAttributes": {
 	"creationDate": 513040662,
-	"displayValue": "web-3-starter",
+	"displayValue": "lvl-1",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-doge"
 	},

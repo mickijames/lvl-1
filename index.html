@@ -12,49 +12,83 @@
 </head>
 <body>
     
-    <h1>Web 3 Starter</h1>
+    <h1>DJ Drum Kit</h1>
     
     <!--  Button to Press  -->
     <div class="keys">
-        <div data-key="65" class="key">
+        <div data-key="69" class="top key ui button">
+          <kbd>E</kbd>
+          <span class="sound">60key beat</span>
+        </div>
+        <div data-key="84" class="top key ui button">
+          <kbd>T</kbd>
+          <span class="sound">monster theme</span>
+        </div>
+        <div data-key="73" class="top key ui button">
+          <kbd>I</kbd>
+          <span class="sound">80pm snare</span>
+        </div>
+    </div>
+    <div class="keys">
+        <div data-key="65" class="key ui button">
           <kbd>A</kbd>
           <span class="sound">clap</span>
         </div>
-        <div data-key="83" class="key">
+        <div data-key="83" class="key ui button">
           <kbd>S</kbd>
           <span class="sound">hihat</span>
         </div>
-        <div data-key="68" class="key">
+        <div data-key="68" class="key ui button">
           <kbd>D</kbd>
           <span class="sound">kick</span>
         </div>
-        <div data-key="70" class="key">
+        <div data-key="70" class="key ui button">
           <kbd>F</kbd>
           <span class="sound">openhat</span>
         </div>
-        <div data-key="71" class="key">
+        <div data-key="71" class="key ui button">
           <kbd>G</kbd>
           <span class="sound">boom</span>
         </div>
-        <div data-key="72" class="key">
+        <div data-key="72" class="key ui button">
           <kbd>H</kbd>
           <span class="sound">ride</span>
         </div>
-        <div data-key="74" class="key">
+        <div data-key="74" class="key ui button">
           <kbd>J</kbd>
           <span class="sound">snare</span>
         </div>
-        <div data-key="75" class="key">
+        <div data-key="75" class="key ui button">
           <kbd>K</kbd>
           <span class="sound">tom</span>
         </div>
-        <div data-key="76" class="key">
+        <div data-key="76" class="key ui button">
           <kbd>L</kbd>
           <span class="sound">tink</span>
+        </div>
+        <div data-key="186" class="key ui button">
+          <kbd>;</kbd>
+          <span class="sound">DJ noise</span>
+        </div>
+    </div>
+    <div class="keys">
+        <div data-key="32" class="top key ui button">
+          <kbd>Space</kbd>
+          <span class="sound">kick scratch</span>
+        </div>
+        <div data-key="78" class="top key ui button">
+          <kbd>N</kbd>
+          <span class="sound">Sneak</span>
         </div>
     </div>
 
     <!--  Audio to Play  -->
+    <audio data-key="69" src="sounds/60key.wav"></audio>
+    <audio data-key="73" src="sounds/80pmsnare.wav"></audio>
+    <audio data-key="32" src="sounds/kickscratch_3.wav"></audio>
+    <audio data-key="84" src="sounds/3333333333333.wav"></audio>
+    <audio data-key="78" src="sounds/3333333333333.wav"></audio>
+    
     <audio data-key="65" src="sounds/clap.wav"></audio>
     <audio data-key="83" src="sounds/hihat.wav"></audio>
     <audio data-key="68" src="sounds/kick.wav"></audio>
@@ -64,6 +98,7 @@
     <audio data-key="74" src="sounds/snare.wav"></audio>
     <audio data-key="75" src="sounds/tom.wav"></audio>
     <audio data-key="76" src="sounds/tink.wav"></audio>
+    <audio data-key="186" src="sounds/djnoise3.wav"></audio>
     
     <!--  jQuery  -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>

@@ -1,4 +1,57 @@
 /* Stylesheet */
 body {
-    background: #1b3bbb;
+    background: url("https://tiestoclublife.files.wordpress.com/2013/06/tiesto_club_life_img325.jpg") no-repeat, #000;
+    background-size: cover;
+    margin-top: 10em;
+}
+
+h1 {
+    color: #fff;
+    margin: 0 0 2em 3em;
+    font-size: 3em;
+}
+
+kbd, span {
+    color: #fff;
+    font-size: 1.25em;
+}
+
+.keys {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    margin: 2em;
+}
+
+.key.ui.button {
+    padding: 1em 2em;
+    margin: .5em;
+    background: rgba(0,0,0,.5);
+    border: 1px solid red;
+    
+    border-radius: 10px;
+    transition: all .07s ease;
+    text-align: center;
+    text-shadow: 0 0 .5rem black;
+}
+
+.top.key.ui.button {
+    margin-right: 5em;
+    padding: 1em 3em;
+}
+
+kbd {
+    display: block;
+    padding: 0 0 1em;
+}
+
+.playing {
+  transform: scale(1.1);
+}
+
+.sound {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  color: #ffc600;
 }

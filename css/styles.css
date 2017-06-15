@@ -20,24 +20,17 @@ kbd, span {
     display: flex;
     flex-flow: wrap;
     justify-content: center;
-    margin: 2em;
+    margin: 3em;
 }
 
 .key.ui.button {
     padding: 1em 2em;
-    margin: .5em;
-    background: rgba(0,0,0,.5);
-    border: 1px solid red;
-    
-    border-radius: 10px;
+    background: #000;
     transition: all .07s ease;
-    text-align: center;
-    text-shadow: 0 0 .5rem black;
 }
 
-.top.key.ui.button {
-    margin-right: 5em;
-    padding: 1em 3em;
+.ui.inverted.black.button {
+    background: rgba(0,0,0,.5);
 }
 
 kbd {
